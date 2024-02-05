@@ -2,6 +2,13 @@
 
 # dependencies
 node_modules/
+ios/Pods/
+ios/build/
+android/build/
+
+# Gradle files
+android/.gradle/
+android/local.properties
 
 # Expo
 .expo/
@@ -33,3 +40,18 @@ yarn-error.*
 
 # typescript
 *.tsbuildinfo
+
+# Generated files
+ios/*.lock
+*.log
+*.pot
+*.pyc
+__pycache__/
+.idea/
+.vscode/
+
+# User-specific files
+*.DS_Store
+*.iml
+*.npmrc
+*.yarn-integrity
